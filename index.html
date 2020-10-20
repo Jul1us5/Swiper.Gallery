@@ -3,9 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    
     <title>Gallery</title>
 </head>
 <body>
-    
+    <div class="swiper-container main-slider loading">
+        <div id="full" class="swiper-wrapper">
+
+        </div>
+        <!-- Navigation buttons -->
+        <div class="swiper-button-prev swiper-button-black"></div>
+        <div class="swiper-button-next swiper-button-black"></div>
+      </div>
+      
+      <!-- Thumbnail navigation -->
+      <div class="swiper-container nav-slider loading">
+        <div class="swiper-wrapper" role="navigation">
+
+
+          <div class="swiper-slide">
+            <figure class="slide-bgimg">
+              img 0
+            </figure>
+            <div class="content">
+              <p class="title">Title 0</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <figure class="slide-bgimg">
+              img 1
+            </figure>
+            <div class="content">
+              <p class="title">Title 1</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <figure class="slide-bgimg">
+              img 2
+            </figure>
+            <div class="content">
+              <p class="title">Title 2</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <figure class="slide-bgimg">
+              img 3
+            </figure>
+            <div class="content">
+              <p class="title">Title 3</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <figure class="slide-bgimg">
+              img 4
+            </figure>
+            <div class="content">
+              <p class="title">Title 4</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+      <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+      <script src="./JS/main.js" type="module" defer></script>
 </body>
 </html>
